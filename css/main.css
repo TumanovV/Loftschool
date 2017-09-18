@@ -1,0 +1,76 @@
+/* типы селекторов
+  p - по тегу
+  # - по айди
+  . - по классу
+  [] - по атрибуту
+  
+  * - выберет все элементы
+  .s1 + .s2 - выберет соседний элемент (снизу)
+  .s1 ~ .s2 - выберет родственные элемент
+  .s1 > .s2 - выберет только на одном уровне
+
+  :link - для не посещенных элементоы
+  :visited - посещенные ссылки
+  :hover - по наведению
+  :active - при нажатии
+  :target - к элементу к котому был переход
+
+  :first-child - первый элемент
+  :last-child - последний элемент
+  :nth-child() - по номеру
+  :nth-child(even) - четные
+  :nth-child(odd) - не четные
+  :nth-child(an+b) - по счетчику
+  :not(селектор) - исключающий селектор
+*/
+
+@font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'opensans';
+    color: #221f1f;
+  }
+  
+  .header, .footer__col {
+   background: #131415;
+  }
+
+  .contacts_phone, .footer_text, .socials__title {
+    color: #ffffff
+  }
+
+  .contacts_link{
+    color: #c77814
+  }
+
+.nav_link {
+  color: #c77814
+}
+.breadcrumbs {
+  font-style: italic;
+}
+
+.breadcrumbs_link{
+  color: #c77814
+}
+
+.service__name {       /* не работает*/
+  font-style: border;
+}
+
+
+.sidebar {            /* не работает*/
+  font-style: border;
+}
