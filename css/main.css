@@ -52,27 +52,37 @@
   }
   
 
-  .header {
-
+ .header {
    background: #131415;
    color:  #c77814;
    margin-bottom: 45px;
   }
 
+.header__col{
+  width: 50%;
+  float: left;
+}
 
+.header__col_right{
+  text-align: right;
+}
 
-
+.contacts{
+  display: inline-block;
+}
 
  .contacts__phone {
    font-weight: bold;
    color: white;
    font-size: 21px;
+   padding: 5px;
+   text-decoration: none;
  }
 
-  .contacts_link{
+  .contacts__link{
     color: #c77814;
-    color: inherit;
-  
+    display: inline-block;
+    margin-bottom: 15px;
   }
 
 .nav_link {
@@ -149,6 +159,7 @@
 .nav__item {
   margin-bottom: 35px;
   margin-left: 20px;
+  display: inline-block;
 }
 
 .nav__link {
@@ -185,7 +196,8 @@
 }
 
 .nav__icon_gant {
-  background: url('../png/service_icon_orange.png') center center  no-repeat;
+  background: url('../png/service_icon.png') center center  no-repeat;
+
 }
 
 .nav__icon_star {
@@ -271,7 +283,7 @@
   display: inline-block;
   background: #d0d0d0;
   border-radius: 50%;
-  
+  text-align: center;
   
 }
 
