@@ -1,0 +1,57 @@
+
+.footer__col {
+    width: 33.3%;
+    float: left;
+  }
+  
+.footer__text {
+    width: 215px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  
+.loftschool {
+    color: #ffffff;
+  }
+  
+.footer__copy{
+    width: 366px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  
+.footer__logo {
+    text-align: center;
+  }
+  
+.footer__center{
+    font-family: "Gora_Free";
+    font-size: 18.18px;
+    display: inline-block;
+    text-decoration: none;
+    color:#f89513;
+    margin-top: 26px;
+  }
+  
+.socials {
+    text-align: right;
+    padding: 10px;
+  }
+  
+.socials__icon_vk:hover{
+    background: #c77814;
+  }
+  
+.socials__title {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  
+.socials__item {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: #d0d0d0;
+    border-radius: 50%;
+    text-align: center;   
+  }

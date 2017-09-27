@@ -1,0 +1,52 @@
+
+body, html {
+    height: 100%;
+}
+  
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1100px;
+}   
+
+.footer {
+    height: 77px;
+    background:#131415;
+    color: #ffffff;
+    min-width: 1100px;
+ }
+
+ body {
+    font-family: 'opensans';
+    color: #221f1f;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+  }
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+
+ * {
+    box-sizing: border-box;
+ }

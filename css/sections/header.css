@@ -1,0 +1,56 @@
+.header {
+    background: #131415;
+    color:  #c77814;
+    position: relative;
+   
+   }
+ 
+.header__logo{
+   font-family: "Gora_Free";
+   font-size: 18px;
+   text-transform: uppercase;
+   color:#f89513;
+   text-decoration: none;
+   position: absolute;
+   padding-top: 22px;   
+ }
+ 
+.header__col{
+   width: 50%;
+   float: left; 
+ }
+ 
+.header__col_right{
+   text-align: right;
+   float: right;
+   padding-top: 15px;
+ }
+ 
+
+.contacts__link {
+   padding-top: 5px;
+}
+ 
+.contacts{
+   display: inline-block;
+}
+ 
+.contacts__phone {
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    padding: 5px;
+    text-decoration: none;
+ }
+ 
+.contacts__link{
+     color: #c77814;
+     display: inline-block;
+     margin-bottom: 15px;
+}
+
+.contacts__desc{
+    font-weight: bold;
+    font-size: 14px;
+    
+ }

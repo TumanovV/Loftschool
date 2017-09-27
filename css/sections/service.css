@@ -1,0 +1,31 @@
+.service__item {
+    width: 265px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 40px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+.service__avatar {
+    width: 251px;
+    height: 160px;
+    border-radius: 2px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 22px;
+  }
+  
+.service__name {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  
+.service__content {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+  }
+  

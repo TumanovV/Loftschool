@@ -1,3 +1,14 @@
+@import url('layout/base.css');
+@import url('sections/header.css');
+@import url('sections/maincontent.css');
+@import url('sections/sidebar.css');
+@import url('sections/service.css');
+@import url('sections/footer.css');
+
+
+
+
+
 @font-face {
   font-family: 'Gora_free';
   src: url('../fonts/gora-free-webfont.woff2') format('woff2'),
@@ -22,269 +33,24 @@
     font-style: normal;
   }
 
-  ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    font-weight: normal;
-  }
 
 
-.clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+
+
+
+.content {
+  padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
   
-  .container {
-    width: 1077px;
-    margin: 0 auto;
-  }
-
-  body {
-    font-family: 'opensans';
-    color: #221f1f;
-    margin: 0;
-  }
-  
-
- .header {
-   background: #131415;
-   color:  #c77814;
-   margin-bottom: 45px;
-  }
-
-.header__col{
-  width: 50%;
-  float: left;
-}
-
-.header__col_right{
-  text-align: right;
-}
-
-.contacts{
-  display: inline-block;
-}
-
- .contacts__phone {
-   font-weight: bold;
-   color: white;
-   font-size: 21px;
-   padding: 5px;
-   text-decoration: none;
- }
-
-  .contacts__link{
-    color: #c77814;
-    display: inline-block;
-    margin-bottom: 15px;
-  }
-
-.nav_link {
-  color: #c77814
-}
-
-.breadcrumbs {
-  margin-bottom: 28px;
-}
-.breadcrumbs__item {
-  display: inline-block;
- }
-
-.breadcrumbs__item::after{
-  content:'/';
-}
-
-.breadcrumbs__item:last-child::after {
-  display: none;
-}
-
-.breadcrumbs__link {
-  font-size: 14x;
-  font-size: 300;
-  font-style: italic;
-  color: #f89513;
-}
-
-.breadcrumbs__link_active {
-  color: #221f1f;
-  text-decoration-line: none;
-}
-
-.section {
-  width: 870px;
-  float: left;
-}
-
-.sidebar{
-  width: 110px;
-  float: left;
-  margin-right: 75px;
-}
-
-
-
-.service__item {
-  width: 265px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  margin-bottom: 40px;
-}
-
-.service__avatar {
-  width: 251px;
-  height: 160px;
-  border-radius: 2px;
-  overflow: hidden;
-  display: inline-block;
-  margin-bottom: 22px;
-}
-
-.service__name {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.service__content {
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.nav__item {
-  margin-bottom: 35px;
-  margin-left: 20px;
-  display: inline-block;
-}
-
-.nav__link {
-  text-decoration: none;
-}
-
-.nav__link:hover .nav__text {
-  color: #221f1f;
-}
-
-
-.nav__link:hover .nav__icon_gant {
-  background-image: url('../png/service_icon.png')
-}
-
-.nav__icon {
-  width: 22px;
-  height: 19px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.nav__text {
-  font-size: 12px;
-  color: #f89513;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.nav__icon_puls {
-  background: url('../png/plus.png') center center no-repeat; 
-}
-
-.nav__icon_gant {
-  background: url('../png/service_icon.png') center center  no-repeat;
-
-}
-
-.nav__icon_star {
-  background: url('../png/feed_icon.png') center center  no-repeat;
-}
-
-.title {
-  font-family: "Roboto";
-  font-style: bold;
-  font-size: 49px;
-  color: #221f1f;
-  margin-bottom: 40px;
-}
-
-.logo {
-  
- font-family: "Gora_Free";
- font-size: 18px;
- text-transform: uppercase;
-  color:#f89513;
-  text-decoration: none;
- 
-  
-}
-  
-.contacts__desc{
-  font-weight: bold;
-  font-size: 14px;
-  
-}
-
-.footer {
-  height: 77px;
-  background:#131415;
-  color: #ffffff;
-}
-
-.footer__col {
-  width: 33.3%;
-  float: left;
-}
-
-.footer__text {
-  width: 215px;
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.loftschool {
-  color: #ffffff;
-}
-
-.footer__copy{
-  width: 366px;
-  font-weight: 300;
-}
-
-.footer__logo {
-  text-align: center;
-}
-
-.footer__center{
-  font-family: "Gora_Free";
-  font-size: 18.18px;
-  display: inline-block;
-  text-decoration: none;
-  color:#f89513;
-  margin-top: 26px;
-}
-
-.socials {
-  text-align: right;
-}
-
-.socials__title {
-  margin-top: 10px;
-  margin-bottom: 8px;
-}
-
-.socials__item {
-  width: 20px;
-  height: 23px;
-  display: inline-block;
-  background: #d0d0d0;
-  border-radius: 50%;
-  text-align: center;
-  
-}
 
 

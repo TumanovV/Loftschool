@@ -1,0 +1,55 @@
+.sidebar{
+    width: 110px;
+    float: left;
+    margin-right: 75px;
+  }
+
+
+.nav__item {
+    padding-bottom: 35px;
+    padding-left: 20px;
+    display: inline-block;
+  }
+  
+
+.nav__link {
+    text-decoration: none; 
+  }
+  
+.nav__link:hover .nav__text {
+    color: #221f1f;
+  }
+  
+  
+.nav__link:hover .nav__icon_gant {
+    background-image: url('../png/service_icon.png')
+  }
+  
+.nav__icon {
+    width: 22px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+.nav__text {
+    font-size: 12px;
+    color: #f89513;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+.nav__icon_puls {
+    background: url('../png/plus.png') center center no-repeat; 
+  }
+  
+.nav__icon_gant {
+    background: url('../png/service_icon.png') center center  no-repeat;
+ 
+  }
+  
+.nav__icon_star {
+    background: url('../png/feed_icon.png') center center  no-repeat;
+  }
