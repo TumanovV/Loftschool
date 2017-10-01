@@ -1,11 +1,11 @@
+
 @import url('layout/base.css');
 @import url('sections/header.css');
 @import url('sections/maincontent.css');
 @import url('sections/sidebar.css');
 @import url('sections/service.css');
 @import url('sections/footer.css');
-
-
+@import url('sections/about_us.css');
 
 
 
@@ -38,8 +38,83 @@
 
 
 
-.content {
+/*.content {
+  padding-top: 45px;*/
+
+
+.sidebar {
   padding-top: 45px;
+}
+
+
+.wrapper_welcome{
+  background: url('../img/fon.jpg') center center no-repeat;
+  background-size: cover;
+  min-width: 600px;
+}
+
+.welcome__log{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+
+}
+
+.welcome__log::before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+
+.afrodita{
+  height: 192px;
+  width: 162px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+
+.button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.button:before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+  padding-top: 300px;
+}
+
+
+.btn{
+  color: #d3d3d3;
+  width: 173px;
+  height: 48px;
+  border: 1px solid #1e1f20;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  background: #1e1f20;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
@@ -47,10 +122,46 @@
 
 
 
+.contacts__link{
+  display: inline-block;
+  position: relative;
+}
+
+.contacts__link:hover .dropdown{
+  right: 0;
+}
 
 
 
-
+.dropdown{
+  border: 1px solid black;
+  background: #ffffff;
+  padding-top: 20px;
+  width: 164px;
+  height: 72px;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10;
+}
   
+  
+
+  .triangle{
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 17px solid white;
+  width: 0px;
+  height: 0px; 
+  position: absolute;
+  bottom: 100%;
+  left: 83%;
+  
+   
+
+
+
+
+
 
 
