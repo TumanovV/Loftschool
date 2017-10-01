@@ -17,12 +17,13 @@
   }
   
 .nav__link:hover .nav__text {
-    color: #221f1f;
+   color: #221f1f;
   }
   
   
 .nav__link:hover .nav__icon_gant {
-    background-image: url('../png/service_icon.png')
+  
+    background-image: url('../../png/service_icon_orange.png');
   }
   
 .nav__icon {
@@ -42,14 +43,14 @@
   }
   
 .nav__icon_puls {
-    background: url('../png/plus.png') center center no-repeat; 
+    background: url('../../png/plus.png') center center no-repeat; 
   }
   
 .nav__icon_gant {
-    background: url('../png/service_icon.png') center center  no-repeat;
+    background: url('../../png/service_icon.png') center center  no-repeat;
  
   }
   
 .nav__icon_star {
-    background: url('../png/feed_icon.png') center center  no-repeat;
+    background: url('../../png/feed_icon.png') center center  no-repeat;
   }
