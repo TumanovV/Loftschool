@@ -24,6 +24,7 @@
 .breadcrumbs__link_active {
     color: #221f1f;
     text-decoration-line: none;
+    pointer-events: none;
   }
   
 .maincontent {
