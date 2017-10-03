@@ -48,17 +48,34 @@
 }
 
 
+.contacts__desc {
+  position: relative;
+ 
+}
+
+.contacts__desc:hover .dropdown{
+  opacity: 1;
+  right: 0;
+}
 
 .dropdown{
-  border: 1px solid black;
+  border: 1px solid #727371;
   background: #ffffff;
   padding-top: 20px;
   width: 164px;
-  height: 72px;
+  padding-top: 17px;
+  padding-right: 19px;
+  padding-bottom: 17px;
+  padding-left: 19px;
   text-align: center;
   border-radius: 5px;
- z-index: 10;
+  z-index: 10;
   position: absolute;
+  top: 110%;
+  opacity: 0;
+  right: -99999px;
+  margin-right: 29px;
+  
 }
   
 
@@ -71,15 +88,17 @@
   position: absolute;
   bottom: 100%;
   left: 83%;
+  
 
   }
 
 
-.about__header{
-  background: url('../../png/weight.jpg') center center no-repeat;
+/*.about__header{
+  background-image: url(../png/weight.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+}*/
 
 
 

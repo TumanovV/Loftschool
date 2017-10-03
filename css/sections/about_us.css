@@ -16,6 +16,11 @@
     height: 355px;
     overflow: hidden;
     margin-top: -45px;
+    background-image: url(../../png/weight.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
   }
   
   
@@ -77,28 +82,33 @@
   }
   
   .part__icon_fl {
-    background: url('../../png2/fl.png') center center no-repeat;
+    background: url('../../png2/fl_cl.png') center center no-repeat;
   }
   .part__icon_mlb{
-    background: url('../../png2/mlb.png') center center no-repeat;
+    background: url('../../png2/mlb_cl.png') center center no-repeat;
   }
   .part__icon_leo{
-    background: url('../../png2/leo.png') center center no-repeat;
-  }
-  
-  .partners__link:hover .part__icon_leo{
-    background-image: url('../../png2/leo_color.png');
+    background: url('../../png2/leo_color.png') center center no-repeat;
   }
   
   .part__icon_arn{
-    background: url('../../png2/arn.png') center center no-repeat;
+    background: url('../../png2/arn_cl.png') center center no-repeat;
   }
   .part__icon_grf{
-    background: url('../../png2/grf.png')center center no-repeat;
+    background: url('../../png2/grf_cl.png')center center no-repeat;
   }
   .part__icon_atl{
-    background: url('../../png2/atl.png')center center no-repeat;
+    background: url('../../png2/atl_cl.png')center center no-repeat;
   }
 
+.part__icon{
+  filter: grayscale(1);
+}
 
-
+.part__icon:hover{
+filter: grayscale(0);
+-moz-transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
