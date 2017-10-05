@@ -11,13 +11,13 @@
    text-transform: uppercase;
    color:#f89513;
    text-decoration: none;
-   position: absolute;
-   padding-top: 22px;   
+    
  }
  
 .header__col{
    width: 50%;
    float: left; 
+   padding-top: 22px; 
  }
  
 .header__col_right{

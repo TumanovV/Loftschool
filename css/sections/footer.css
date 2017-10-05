@@ -44,11 +44,20 @@
     margin-bottom: 8px;
   }
   
-.socials__item {
+.socials__item, .socials__link {
     width: 20px;
     height: 20px;
     display: inline-block;
-    background: #d0d0d0;
+    background-color: #d0d0d0;
     border-radius: 50%;
     text-align: center;   
+}
+  
+
+  .socials__item .socials__link:hover{
+    background-color: #f89513;
+    width: 20px;
+    height: 20px;
   }
+
+
