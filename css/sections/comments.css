@@ -1,0 +1,131 @@
+.comments__item {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.comments__item:last-child{
+    border-bottom: none;
+}
+
+.comments__avatar{
+    width: 162px;
+    height: 162px;
+   margin: 0;
+   display: inline-block;
+  
+}
+
+.comments__content{
+    display: inline-block;	
+	vertical-align: top;
+    max-width: 685px;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.comments__date{
+    font-size: 14px;
+    color: #656464;
+    padding-bottom: 11px;
+}
+
+.comments__avatar-pic{
+    height: 162px;
+    width: 162px;
+    border-radius: 50%;
+    
+}
+.comments__pagination {
+    text-align: center;
+}
+
+.comments__pagination-desc{
+    display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
+    font-weight: 300;
+    font-size: 14px
+}
+.pagination__list{
+    position: relative;
+	display: inline-block;
+	padding-top: 2px;
+	padding-left: 8px;
+	padding-right: 20px;
+}
+
+.pagination__item {
+    display: inline-block;
+}
+
+.pagination__link{
+    padding: 2px 8px 4px 9px;
+    border-radius: 3px;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.pagination__link:hover{
+color: #f89513;
+}
+
+
+.pagination__link_one{
+    color: #f89513;
+	background-color: #131415;
+}
+
+
+.pagination__link_start {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+	margin-bottom: 5px;
+    border-top: solid 1px #bebdbd;
+    border-right: solid 1px #bebdbd;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    cursor: default;
+}
+ 
+
+
+.pagination__link_end{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+	margin-bottom: 5px;
+    border-top: solid 1px #bebdbd;
+    border-right: solid 1px #bebdbd;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pagination__link_end:hover {
+    border-top: 1px solid #f89513;
+	border-right: 1px solid #f89513
+}
+
+
+.form-content {
+	max-width: 700px;
+	margin-bottom: 47px;
+	padding: 45px 65px;
+	background-color: #f5f5f5;
+}
+
+
+.form__title{
+    margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 49px;
+	font-weight: bold;
+}
