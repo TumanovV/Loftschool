@@ -1,0 +1,19 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+
+// setups
+@import "config/mixins";
+@import "config/fonts";
+@import "config/layout";
+
+
+//common
+@import "../scss/config/blocks/common/btn";
+
+// blocks
+@import "../scss/config/blocks/hero";
+@import "../scss/config/blocks/best";

@@ -1,0 +1,86 @@
+.hero {
+    background: url('../../../img/bg/hero_bg.png') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+
+.header__btns {
+    display: flex;
+    align-items: center;
+    margin-left: auto; //блок прижмется к противоположной строне, в данном случак к правой//
+}
+
+
+.hero__container{   //расстягивание блок на всю ширину//
+    flex: 1; 
+}
+
+.hero__content{
+    flex-grow: .8; //блоки будут одинакового размера// // .8 чтобы визуально контент был по центру//
+    display: flex;
+    align-items: center;
+}
+
+
+.hero__text{
+    color: #fff;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__item{             //убираем последнюю точку//
+    &:last-child{
+        .nav__link:after{
+            display: none;
+        }
+
+    }
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    display: flex; //чтобы точки выровнялись//
+    align-items: center; //позиц. точек//
+
+    &:after{
+        content: "";
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #fff;
+        margin: 0 16px; //сверху-0, по бокам 16px//
+
+    }
+}
+
+
+.hero__pic{     
+    
+    width: 50%;    
+
+}
+
+.hero__pic-img{         //в адаптивных сайтах не забывать ставить картинкам блочную модель поведения//
+    display: block;
+    max-width: 100%;     //не ставить жестких размеров, лучше по одному, либо width или height//   
+}
+
+
+.hero__text{
+    width: 50%;
+}
+
+

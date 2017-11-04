@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;  //сглаживание текста//
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  @include ubuntu();
+  color: $black; //цвет шрифта//
+}
+
+.container {    //выравнивает контент по центу//
+  margin: 0 auto;   //выравнивает контент по центу//
+  position: relative;
+  min-width: 940px; //ширина взятая по макету//
+   // width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {  //сюда помещается вся верстка//
+  position: relative;
+  width: 100%;
+  min-width: 940px + 20px;
+  min-height: 100%; //сво-во чтобы прибивать футер//
+  overflow: hidden; //обязательное свойство, чтобы не появлялся скролл//
+}
+
+
+// tag styles 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;    //чтобы бордеры были друг к другу//
+  border-spacing: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;   //чтобы не мешали паддинги от эд-ов, убираем их//
+}
+
+.section {
+ height: 100vh;
+ min-height: 650px;
+}
+
+
+.section__title{
+    font-size: 72px;
+    @include gagalin();
+    color: $yellow;
+    margin-bottom: 40px;
+}
