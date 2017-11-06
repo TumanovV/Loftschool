@@ -72,12 +72,31 @@ footer {
 .section {
  height: 100vh;
  min-height: 650px;
+
+ &_centered {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
 }
 
 
-.section__title{
+.section-title{
     font-size: 72px;
     @include gagalin();
     color: $yellow;
     margin-bottom: 40px;
+
+    &_color{
+      &_black {
+        color: $black;
+      }
+    }
+
+    &_position {
+      &_center {
+        text-align: center;
+      }
+    }
+
 }

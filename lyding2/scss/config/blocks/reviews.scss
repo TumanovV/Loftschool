@@ -1,0 +1,38 @@
+.reviews__list {
+
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap; //чтобы новые эл-ты перескакивали н новую строчку//
+
+}
+
+
+.reviews__item{
+    width: 25%; //так как ширина экрана 100%, эелемента в строчке 4//
+    height: 50%; //так как высота 100%, а элементов в столбце 2//
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    position: relative;
+
+
+    &:hover {
+        .reviews__hover{
+            opacity: 1;
+        }
+    }
+}
+
+.reviews__hover{
+    position: absolute;
+    //командами ниже расстягиваем по всей ширине
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    //
+    background: rgba(#454545, .7);
+    opacity: 0;
+    transition: opacity .3s;
+}

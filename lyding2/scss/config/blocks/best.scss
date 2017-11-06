@@ -4,7 +4,21 @@
 }
 
 .best__list{
-    display:flex
+    display: flex;
+    
+
 }
+
+.best__item{
+    margin-right: 20px;
+    
+
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+
 
 
