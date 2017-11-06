@@ -131,7 +131,7 @@ footer {
   display: inline-block; }
 
 .hero {
-  background: url("../../../img/bg/hero_bg.png") center center no-repeat;
+  background: url("../img/bg/hero_bg.png") center center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -242,7 +242,7 @@ footer {
     margin-right: 0; }
 
 .team {
-  background: url("../../../img/bg/team-bg.png") center center no-repeat;
+  background: url("../img/bg/team-bg.png") center center no-repeat;
   background-size: cover;
   position: relative; }
 
@@ -341,7 +341,7 @@ footer {
   transition: opacity .3s; }
 
 .order {
-  background: url("../../../img/bg/ord-bg.png") center center no-repeat;
+  background: url("../img/bg/ord-bg.png") center center no-repeat;
   background-size: cover; }
 
 .form__block-title {
