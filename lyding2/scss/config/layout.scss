@@ -16,7 +16,7 @@ body {
 .container {    //выравнивает контент по центу//
   margin: 0 auto;   //выравнивает контент по центу//
   position: relative;
-  min-width: 940px; //ширина взятая по макету//
+  max-width: 940px; //ширина взятая по макету//
    // width: 95%;
   display: flex;
   flex-direction: column;

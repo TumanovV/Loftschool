@@ -1,30 +1,30 @@
 @font-face {
   font-family: 'Gagalin-Regular';
-  src: url("../../fonts/gagalin-regular-webfont.woff") format("woff");
+  src: url("../fonts/gagalin-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Lifehack-Medium';
-  src: url("../fonts/Lifehack-Medium.woff") format("woff");
+  src: url("../fonts/lifehack-medium.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url("../fonts/Ubuntu-Light.woff") format("woff");
+  src: url("../fonts/ubuntu-light.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url("../fonts/Ubuntu-Medium.woff") format("woff");
+  src: url("../fonts/ubuntu-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url("../fonts/ubuntu-b-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-b.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 
@@ -45,7 +45,7 @@ body {
 .container {
   margin: 0 auto;
   position: relative;
-  min-width: 940px;
+  max-width: 940px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -227,7 +227,7 @@ footer {
   width: 50%; }
 
 .best {
-  background: url("../../../img/bg/best-bg.png") center center no-repeat;
+  background: url("../img/bg/best-bg.png") center center no-repeat;
   background-size: cover; }
 
 .best__list {
@@ -290,7 +290,8 @@ footer {
   display: flex; }
 
 .team-acco__text {
-  color: #fff; }
+  color: #fff;
+  max-width: 50%; }
 
 .team-acco__content {
   display: none; }
@@ -351,6 +352,9 @@ footer {
   border-radius: 5px;
   padding: 5px;
   width: 100%; }
+
+.form__content {
+  width: 50%; }
 
 .form__row {
   display: -webkit-box;
