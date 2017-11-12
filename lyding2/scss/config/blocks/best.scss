@@ -10,7 +10,9 @@
 }
 
 .best__item{
-    margin-right: 20px;
+    margin-right: rem(20px);
+    text-align: center;
+   
     
 
 
@@ -19,6 +21,8 @@
     }
 }
 
-
+.best__icon{
+    margin-bottom: rem(50px);
+}
 
 

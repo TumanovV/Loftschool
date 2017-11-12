@@ -35,4 +35,28 @@
     background: rgba(#454545, .7);
     opacity: 0;
     transition: opacity .3s;
+    color: #fff;
+    padding: rem(49px) rem(21px);
+
+    .reviews__hover-title{
+        margin-bottom: rem(10px);
+    }
+
 }
+.reviews__hover-link{
+    text-decoration: none;
+    border: rem(1px) solid #2f3234;
+    background: #2f3234;
+    padding: rem(10px);
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: rem(5px);
+    
+    font-size: rem(14px);
+}
+
+.reviews__hover-desc{
+    margin-bottom: rem(15px);
+    
+}
+

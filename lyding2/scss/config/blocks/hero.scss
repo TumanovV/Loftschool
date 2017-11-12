@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.logo{
+    margin-top: rem(11px);
+}
+
 
 .header__btns {
     display: flex;
@@ -46,6 +50,8 @@
         }
 
     }
+
+    margin-right: rem(20px);
 }
 
 .nav__link{
@@ -57,11 +63,11 @@
     &:after{
         content: "";
         display: block;
-        width: 4px;
-        height: 4px;
+        width: rem(4px);
+        height: rem(4px);
         border-radius: 50%;
         background: #fff;
-        margin: 0 16px; //сверху-0, по бокам 16px//
+        margin: 0 rem(16px); //сверху-0, по бокам 16px//
 
     }
 }
@@ -81,6 +87,7 @@
 
 .hero__text{
     width: 50%;
+    
 }
 
 

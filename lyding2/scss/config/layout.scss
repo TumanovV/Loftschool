@@ -1,10 +1,25 @@
+html {
+  font-size: 16px;
+
+  @include tablets{
+    font-size: 15px;
+  }
+
+  
+  @include phones{
+    font-size: 14px;
+  }
+
+}
+
+
 html,
 body {
   height: 100%;
 }
 
 body {
-  font-size: 16px;
+  font-size: rem(16px);
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;  //сглаживание текста//
   -moz-osx-font-smoothing: grayscale;
@@ -16,7 +31,7 @@ body {
 .container {    //выравнивает контент по центу//
   margin: 0 auto;   //выравнивает контент по центу//
   position: relative;
-  max-width: 940px; //ширина взятая по макету//
+  max-width: rem(940px); //ширина взятая по макету//
    // width: 95%;
   display: flex;
   flex-direction: column;
@@ -25,7 +40,7 @@ body {
 .wrapper {  //сюда помещается вся верстка//
   position: relative;
   width: 100%;
-  min-width: 940px + 20px;
+  min-width: rem(940px) + rem(20px);
   min-height: 100%; //сво-во чтобы прибивать футер//
   overflow: hidden; //обязательное свойство, чтобы не появлялся скролл//
 }
@@ -71,7 +86,7 @@ footer {
 
 .section {
  height: 100vh;
- min-height: 650px;
+ min-height: rem(650px);
 
  &_centered {
    display: flex;
@@ -82,10 +97,10 @@ footer {
 
 
 .section-title{
-    font-size: 72px;
+    font-size: rem(72px);
     @include gagalin();
     color: $yellow;
-    margin-bottom: 40px;
+    margin-bottom: rem(40px);
 
     &_color{
       &_black {

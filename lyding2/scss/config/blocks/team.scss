@@ -12,10 +12,10 @@
     right: 0;
     width: 50%;
     background: rgba(#2f3234, .93);
-    padding-left: 70px;
+    padding-left: rem(70px);
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: rem(50px);
 }
 
 .team-acco__trigger{
@@ -27,7 +27,7 @@
         content: "";
         height: 0;
         width: 0;
-        border: 9px solid transparent;
+        border: rem(9px) solid transparent;
         border-top-color: $yellow;
         border-block-start-width: 0;
        
@@ -61,3 +61,4 @@
         display: block;
     }
 }
+

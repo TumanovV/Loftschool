@@ -9,7 +9,13 @@ $red: #e35028;
 @import "config/mixins";
 @import "config/fonts";
 @import "config/layout";
+@import "config/media";
 
+// resolutions
+$desktop: 1200px;
+$laptop: 992px;
+$tablets: 768px;
+$phones: 480px;
 
 //common
 @import "config/blocks/common/btn";
@@ -20,4 +26,5 @@ $red: #e35028;
 @import "config/blocks/team";
 @import "config/blocks/reviews";
 @import "config/blocks/order";
+@import "config/blocks/menu";
 

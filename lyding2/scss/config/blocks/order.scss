@@ -9,27 +9,32 @@
 
 .form__input{
     border: none;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: rem(5px);
+    padding: rem(5px);
     width: 100%; //расстягиваем поля на всю ширину//
 }
 
 .form__content{
-    width: 50%;
+    width: 45%;
+    margin-right: rem(20px);
     
 
+}
+
+.form__elem{
+    display: -webkit-box;
 }
 
 
 
 .form__row{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
 }
 
 .form__block{
     flex: 1; //занимают столько, сколько есть места одинаковой пропорции//
-    margin-right: 20px;
+    margin-right: rem(20px);
  
 
  &:last-child{
@@ -37,5 +42,23 @@
  }
 
 
+}
+
+.form__teaxtarea {
+    height: rem(106px);
+    width: 100%;
+    resize: none;
+    padding: rem(5px);
+    border-radius: rem(5px);
+}
+
+.btn__title{
+    width: rem(98px);
+    height: rem(37px);
+    text-align: center;
+    padding: rem(8px);
+    cursor: pointer;
+    color: #fff;
+    margin-left: rem(10px);
 }
 

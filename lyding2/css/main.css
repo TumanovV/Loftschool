@@ -153,6 +153,9 @@ footer {
   -ms-flex-align: center;
   align-items: center; }
 
+.logo {
+  margin-top: 0.6875rem; }
+
 .header__btns {
   display: -webkit-box;
   display: -webkit-flex;
@@ -193,8 +196,10 @@ footer {
   display: -ms-flexbox;
   display: flex; }
 
-.nav__item:last-child .nav__link:after {
-  display: none; }
+.nav__item {
+  margin-right: 1.25rem; }
+  .nav__item:last-child .nav__link:after {
+    display: none; }
 
 .nav__link {
   color: #fff;
@@ -210,11 +215,11 @@ footer {
   .nav__link:after {
     content: "";
     display: block;
-    width: 4px;
-    height: 4px;
+    width: 0.25rem;
+    height: 0.25rem;
     border-radius: 50%;
     background: #fff;
-    margin: 0 16px; }
+    margin: 0 1rem; }
 
 .hero__pic {
   width: 50%; }
@@ -237,9 +242,13 @@ footer {
   display: flex; }
 
 .best__item {
-  margin-right: 20px; }
+  margin-right: 1.25rem;
+  text-align: center; }
   .best__item:last-child {
     margin-right: 0; }
+
+.best__icon {
+  margin-bottom: 3.125rem; }
 
 .team {
   background: url("../img/bg/team-bg.png") center center no-repeat;
@@ -253,7 +262,7 @@ footer {
   right: 0;
   width: 50%;
   background: rgba(47, 50, 52, 0.93);
-  padding-left: 70px;
+  padding-left: 4.375rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -263,7 +272,7 @@ footer {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-top: 50px; }
+  padding-top: 3.125rem; }
 
 .team-acco__trigger {
   color: #fff;
@@ -279,7 +288,7 @@ footer {
     content: "";
     height: 0;
     width: 0;
-    border: 9px solid transparent;
+    border: 0.5625rem solid transparent;
     border-top-color: #f9b43b;
     border-block-start-width: 0; }
 
@@ -338,7 +347,24 @@ footer {
   opacity: 0;
   -webkit-transition: opacity .3s;
   -o-transition: opacity .3s;
-  transition: opacity .3s; }
+  transition: opacity .3s;
+  color: #fff;
+  padding: 3.0625rem 1.3125rem; }
+  .reviews__hover .reviews__hover-title {
+    margin-bottom: 0.625rem; }
+
+.reviews__hover-link {
+  text-decoration: none;
+  border: 0.0625rem solid #2f3234;
+  background: #2f3234;
+  padding: 0.625rem;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0.3125rem;
+  font-size: 0.875rem; }
+
+.reviews__hover-desc {
+  margin-bottom: 0.9375rem; }
 
 .order {
   background: url("../img/bg/ord-bg.png") center center no-repeat;
@@ -349,27 +375,112 @@ footer {
 
 .form__input {
   border: none;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 0.3125rem;
+  padding: 0.3125rem;
   width: 100%; }
 
 .form__content {
-  width: 50%; }
+  width: 45%;
+  margin-right: 1.25rem; }
+
+.form__elem {
+  display: -webkit-box; }
 
 .form__row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem; }
 
 .form__block {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-right: 20px; }
+  margin-right: 1.25rem; }
   .form__block:last-child {
     margin-right: 0; }
+
+.form__teaxtarea {
+  height: 6.625rem;
+  width: 100%;
+  resize: none;
+  padding: 0.3125rem;
+  border-radius: 0.3125rem; }
+
+.btn__title {
+  width: 6.125rem;
+  height: 2.3125rem;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 0.625rem; }
+
+.menu {
+  background: url("../img/bg/menu-bg.png") center center no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.menu__title {
+  position: absolute;
+  top: 10%;
+  left: 10%; }
+
+.menu-acco {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu-acco__item {
+  height: 100%; }
+  .menu-acco__item.active .menu-acco__trigger-text {
+    color: #f9b43b; }
+
+.menu-acco__trigger {
+  width: 5rem;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  position: relative; }
+
+.menu-acco__trigger-text {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Gagalin-Regular', Helvetica, sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  -webkit-transform: rotate(-90deg) translateY(-50%);
+  -ms-transform: rotate(-90deg) translateY(-50%);
+  transform: rotate(-90deg) translateY(-50%);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  left: 50%;
+  top: 100%;
+  margin-top: -1.25rem; }
+
+.menu-acco__content {
+  height: 100%;
+  float: left;
+  background: rgba(47, 50, 52, 0.93);
+  width: 0;
+  overflow: hidden; }
+
+.menu-acco__text {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #fff;
+  padding: 3.75rem 1.875rem;
+  width: 100%;
+  line-height: 1.8; }
 
 /*# sourceMappingURL=main.css.map */
