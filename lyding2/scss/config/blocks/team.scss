@@ -16,11 +16,21 @@
     display: flex;
     flex-direction: column;
     padding-top: rem(50px);
+    @include tablets {
+        width: 100%;
+        
+    }
+}
+
+.team-acco__item{
+    @include tablets{
+        text-align: center;
+    }
 }
 
 .team-acco__trigger{
     color: #fff;
-    display: flex;
+    display: inline-block;
     align-items: center;
 
     &:before{
@@ -39,9 +49,16 @@
 
 }
 
+.team-acco__text, .team-acco__pic{
+    @include tablets {
+        width: 100%;
+    }
+}
+
 .team-acco__text{
     color: #fff;
     max-width: 50%; 
+    display: inline-block;
 }
 
 .team-acco__content{
@@ -58,7 +75,11 @@
     }
 
     .team-acco__content{
-        display: block;
+        display: flex;
+        @include tablets {
+            display: block;
+            
+        }
     }
 }
 

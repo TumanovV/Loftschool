@@ -17,12 +17,26 @@
 .form__content{
     width: 45%;
     margin-right: rem(20px);
+
+    @include tablets {
+        margin-right: 0;
+        width: 100%;
+        padding: 0 20%;
+    }
     
+    @include phones{
+        padding: 0;
+    }
 
 }
 
 .form__elem{
     display: -webkit-box;
+
+    @include tablets{
+        flex-direction: column;
+       
+    }
 }
 
 

@@ -5,17 +5,19 @@ $black: #2f3234;
 $red: #e35028;
 
 
+@import "config/media";
+// resolutions
+$tablets: 768px;
+$phones: 480px;
+
+
 // setups
 @import "config/mixins";
 @import "config/fonts";
-@import "config/layout";
-@import "config/media";
 
-// resolutions
-$desktop: 1200px;
-$laptop: 992px;
-$tablets: 768px;
-$phones: 480px;
+@import "config/layout";
+
+
 
 //common
 @import "config/blocks/common/btn";

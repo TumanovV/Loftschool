@@ -32,15 +32,16 @@ body {
   margin: 0 auto;   //выравнивает контент по центу//
   position: relative;
   max-width: rem(940px); //ширина взятая по макету//
-   // width: 95%;
+   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0 rem(10px);
 }
 
 .wrapper {  //сюда помещается вся верстка//
   position: relative;
   width: 100%;
-  min-width: rem(940px) + rem(20px);
+ // min-width: rem(940px) + rem(20px);
   min-height: 100%; //сво-во чтобы прибивать футер//
   overflow: hidden; //обязательное свойство, чтобы не появлялся скролл//
 }
