@@ -1,0 +1,62 @@
+    .footer {
+    background: url('../img/bg/ord-bg.png') center bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.footer__col {
+    width: 50%;
+    margin-bottom: rem(15px);
+    @include phones {
+        text-align: center;
+    }
+  
+}
+
+.footer__address {
+    color: #ffffff;
+    font-size: rem(14px);
+}
+
+.footer__phone {
+    color: $red;
+}
+
+.footer__col_right {
+    text-align: right;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    @include phones{
+        justify-content: center;
+    }
+}
+
+.socials{
+    display: inline-flex;
+    .socials__item{
+        margin-right: rem(19px);
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+     .socials__link-icon {
+        background-color: black;
+        width: 20px;
+        height: 20px;
+    }
