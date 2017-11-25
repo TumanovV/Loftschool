@@ -3,6 +3,7 @@ $orange: #e45028;
 $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
+$white: #fff;
 
 
 @import "config/media";
@@ -21,13 +22,19 @@ $phones: 480px;
 
 //common
 @import "config/blocks/common/btn";
-
+@import "config/blocks/common/fixed-menu";
 // blocks
 @import "config/blocks/hero";
 @import "config/blocks/best";
+@import "config/blocks/beef";
 @import "config/blocks/team";
 @import "config/blocks/reviews";
 @import "config/blocks/order";
 @import "config/blocks/menu";
 @import "config/blocks/footer";
+@import "config/blocks/icon-phone";
+@import "config/blocks/arrow-down";
+@import "config/blocks/arrow-right";
+@import "config/blocks/arrow-left";
+
 

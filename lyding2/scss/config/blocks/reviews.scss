@@ -30,6 +30,7 @@
 }
 
 .reviews__hover{
+    padding: 64px 46px;
     position: absolute;
     //командами ниже расстягиваем по всей ширине
     top: 0; 
@@ -43,10 +44,18 @@
     color: #fff;
     padding: rem(49px) rem(21px);
 
+    @include tablets {
+        text-align: center;
+        padding: 26px  35px;
+    }
+
     .reviews__hover-title{
+        @include gagalin();
         margin-bottom: rem(10px);
         @include phones {
             margin-bottom: rem(50px);
+            
+            font-size: 28px;
            
         }
     }

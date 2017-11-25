@@ -76,3 +76,24 @@
   line-height: 1.8;
  
 }
+
+.menu-acco__trigger{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background:center;
+   
+}
+
+.menu-acco__trigger_first{
+    background: url('../img/image/1.png') center center no-repeat;
+    background-size: cover;
+}
+.menu-acco__trigger_second{
+    background: url('../img/image/2.png') center center no-repeat;
+    background-size: cover;
+}
+.menu-acco__trigger_three{
+    background: url('../img/image/3.png') center center no-repeat;
+    background-size: cover;
+}

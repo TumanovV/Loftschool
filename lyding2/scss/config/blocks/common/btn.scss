@@ -5,4 +5,10 @@
     text-decoration: none;
     border-radius: 5px;
     display: inline-block; //никогда не оставлять ссылку неблочной//
+    @include tablets{
+        margin-right: 70px;
+    }
+    @include phones {
+        margin-right: 0;
+    }
 }

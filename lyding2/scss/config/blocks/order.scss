@@ -44,11 +44,27 @@
 .form__row{
     display: flex;
     margin-bottom: rem(20px);
+    @include phones{
+        &_pad{
+            padding: 0 118px;
+        }
+        &_center{
+            text-align: center;
+        }
+        margin-bottom: 30px;
+    }
 }
 
 .form__block{
     flex: 1; //занимают столько, сколько есть места одинаковой пропорции//
     margin-right: rem(20px);
+
+    @include phones{
+        &_none {
+            display: none;
+        }
+
+    }
  
 
  &:last-child{

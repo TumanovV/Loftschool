@@ -1,0 +1,100 @@
+.burger {
+    background: url('../img/bg/beef.png') center center no-repeat;
+    background-size: cover;  
+   
+}
+
+.burger__content{
+    flex-grow: .8; //блоки будут одинакового размера// // .8 чтобы визуально контент был по центру//
+    display: flex;
+    align-items: center;
+    @include tablets {  // контент столбиком//
+        flex-direction: column;
+    }
+}
+.burger__pic-comps{
+    position: absolute;
+    top: -40px;
+    width: 90px;
+    text-align: center;
+    line-height: 1.2;
+    background: #f08c33;
+    border-radius: 5px;
+    padding: 5px;
+    @include tablets {
+        top: -45px;
+    }
+    @include phones {
+        top: -45px;
+        left: 10px;
+    }
+}
+.burger__pic-kkal{
+    position: absolute;
+    bottom: 0;
+    @include tablets {
+        top: -40px;
+        right: 65px;
+    }
+    @include phones {
+        right: 10px;
+    }
+}
+
+
+
+.burger__desc{
+    color: #fff;
+    @include ubuntu();
+    font-size: 14px;
+}
+
+
+.burger__comps{
+    color: #fff;
+}
+
+.burger__price{
+    display: inline-flex;
+    
+}
+
+.burger__price-500{
+    font-size: 73px;
+    @include gagalin();
+    color: $orange;
+    
+   
+}
+
+.burger__price-rub{
+    font-size: 30px;
+    @include gagalin();
+    margin-top: 43px;
+    color: $orange;
+
+}
+
+.btn_pos{
+    margin-left: 32px;
+}
+
+.volue{
+    position: absolute;
+    @include gagalin();
+    font-size: 20px;
+    color: #fff;
+    bottom: 14px;
+    left: 23px;
+}
+
+.burger__right{
+    @include tablets {  // контент столбиком//
+        text-align: center;
+        padding: 0 100px;
+    }
+    @include phones {
+        padding: 0 30px;
+        
+    }
+}

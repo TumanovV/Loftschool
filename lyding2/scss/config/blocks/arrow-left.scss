@@ -1,0 +1,21 @@
+.arrow-left:before {
+    content: '';
+    position: absolute;
+    color: #fff;
+    left: 1px;
+    top: 149px;
+    width: 15px;
+    height: 15px;
+    border-top: solid 2px currentColor;
+    border-right: solid 2px currentColor;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+            @include tablets{
+                left: 10px;
+                top: 50%;
+            }
+            @include phones{
+                left: 20px;
+                top: 50%;
+            }
+  }
